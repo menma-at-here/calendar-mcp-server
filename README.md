@@ -9,7 +9,7 @@ googleカレンダーから予定一覧を取得するための MCP サーバで
 「デスクトップアプリ」でOAuth 2.0クライアントを作成してください。
 詳しくは[こちら](https://developers.google.com/identity/protocols/oauth2?hl=ja)
 
-クライアント作成後、以下のような認証用の JSON を取得し、 `redirect_uris` を以下のように `[ttp://localhost:3000/callback]` に変更した上で `credentials.json` という名前でルートディレクトリに保存してください。
+クライアント作成後、以下のような認証用の JSON を取得し、 `redirect_uris` を以下のように `[http://localhost:3000/callback]` に変更した上で `credentials.json` という名前でルートディレクトリに保存してください。
 
 ```
 {
